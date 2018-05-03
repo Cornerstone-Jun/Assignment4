@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BFB14B5F209A86E3004B0333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14B5E209A86E3004B0333 /* main.m */; };
+		BFB14B6D209A86FE004B0333 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14B66209A86FE004B0333 /* Contact.m */; };
+		BFB14B6E209A86FE004B0333 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14B68209A86FE004B0333 /* ContactList.m */; };
+		BFB14B6F209A86FE004B0333 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14B6A209A86FE004B0333 /* InputHandler.m */; };
+		BFB14B70209A86FE004B0333 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14B6C209A86FE004B0333 /* PhoneNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		BFB14B5B209A86E3004B0333 /* Assignment4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment4; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB14B5E209A86E3004B0333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB14B65209A86FE004B0333 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		BFB14B66209A86FE004B0333 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		BFB14B67209A86FE004B0333 /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		BFB14B68209A86FE004B0333 /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		BFB14B69209A86FE004B0333 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		BFB14B6A209A86FE004B0333 /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		BFB14B6B209A86FE004B0333 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
+		BFB14B6C209A86FE004B0333 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,14 @@
 		BFB14B5D209A86E3004B0333 /* Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
+				BFB14B65209A86FE004B0333 /* Contact.h */,
+				BFB14B66209A86FE004B0333 /* Contact.m */,
+				BFB14B67209A86FE004B0333 /* ContactList.h */,
+				BFB14B68209A86FE004B0333 /* ContactList.m */,
+				BFB14B69209A86FE004B0333 /* InputHandler.h */,
+				BFB14B6A209A86FE004B0333 /* InputHandler.m */,
+				BFB14B6B209A86FE004B0333 /* PhoneNumber.h */,
+				BFB14B6C209A86FE004B0333 /* PhoneNumber.m */,
 				BFB14B5E209A86E3004B0333 /* main.m */,
 			);
 			path = Assignment4;
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB14B6E209A86FE004B0333 /* ContactList.m in Sources */,
+				BFB14B6D209A86FE004B0333 /* Contact.m in Sources */,
 				BFB14B5F209A86E3004B0333 /* main.m in Sources */,
+				BFB14B6F209A86FE004B0333 /* InputHandler.m in Sources */,
+				BFB14B70209A86FE004B0333 /* PhoneNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
